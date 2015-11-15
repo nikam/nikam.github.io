@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Personal Web Page</title>
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Fichiers CSS
+<link rel="nikam/reset.css"> -->
+<!--[if lt IE 9]> 
+	<link rel="stylesheet" href="css/cv.css" media="screen">
+<![endif]-->
+<!--<link rel="stylesheet" media="screen and (max-width:480px)" href="nikam/mobile.css">-->
+<link rel="stylesheet" media="screen and (min-width:481px)" href="nikam/cv.css">
+<link rel="stylesheet" media="print" href="nikam/print.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header role="banner">
+		<div class="container_16">
+				<hgroup>
+					<h1>Abhijeet Nikam</h1>
+					<h2>Software Developer at SAP Labs</h2>
+				</hgroup>
+
+				<figure>
+					<img src="nikam/avatar.jpg" alt="ANikam">
+				</figure>
+		</div>
+	</header>
+	
+
+	
+	<!-- Corps -->
+	<section role="main" class="container_16 clearfix">
+		<div class="grid_16">
+			<!-- A propos -->
+			<div class="grid_8 apropos">
+				<h3>About Me</h3>
+				<p>I will be working as a software developer at SAP, Bangalore</p>
+				<p> I hail from Pune, Mahrashtra. I am in my final year of my Computer Science degree program at Amrita School of Engineering, Coimbatore. I love coding, playing football, dancing and travelling with my folks.  </p>
+			</div>
+			
+			<!-- Compétences -->
+			<div class="grid_8 competences">
+				<h3>Skills and Competency</h3>
+				<ul class="barres">
+					<li data-skills="70">C/C++<span style="width: 70%;"></span></li>
+					<li data-skills="50">Java<span style="width: 50%;"></span></li>
+					<li data-skills="75">HTML/CSS<span style="width: 75%;"></span></li>
+					<li data-skills="50">DBMS<span style="width: 50%;"></span></li>
+					<li data-skills="60">Linux Skills<span style="width: 60%;"></span></li>
+				</ul>
+			</div>
+		</div>
+		
+			<!-- Expériences -->
+			<div class="grid_16 experiences">
+				<h3>Experiences</h3>
+				<ul>
+					<li>
+						<h4><strong>GSoC 2016</strong> : Employers - Kevin Krammer (KDE)</h4>
+					
+						<span class="dates">May - August (2014)</span> 
+						<p>I worked with KDE on the "Active Mail API" project. I have contributed to this organization for a year in these areas - testing, coding, maintaining and bug fixing.</p>
+					</li>
+					<li>
+						<h4><strong>Finance Head</strong> : Employers - Anokha 2016 Committee</h4>
+						<span class="dates"> October - Feb (2015-2016)</span>
+						<p> Anokha is the annual technical festival of Amrita Vishwa Vidyapeetham, Coimbatore. I had been assigned the role of Finance Head by the convenors.</p>
+					</li>
+				</ul>
+			</div>
+		
+			<!-- Formations -->
+			<div class="grid_16 formations">
+				<h3>Projects</h3>
+				<ul>
+					<li>
+						<h4><strong>Active Mail Project </strong>: GSoC 2014</h4>
+						<span class="dates">May - August (2014)</span>
+						<p> We created an Bacnend to send the mails using the existing API in KDE. In the next step, a front end was developed using QML for mobile interfaces.</p>
+					</li>
+					<li>
+						<h4><strong> Location Prediction System App</strong>: Final Year Project</h4>
+						<span class="dates">August - (2015 -2016)</span>
+						<p>We are working on location prediction system using GPS inputs. This is done using Mobility Markov Chain Models. The app is being developed on Android Platform, and will be useful for patients affected by Alzheimer's and dementia. </p>
+					</li>
+				</ul>
+			</div>
+		
+			<!-- Loisirs -->
+			<div class="grid_8 loisirs">
+				<h3>Hobbies</h3>
+				<p><strong>Sports :</strong> Football, Cricket, Chess/p>
+				<p><strong>Culturals :</strong> Dancing ( Classical ), Reading</p>
+				<p>I am a great event organizer too :)</p>
+			</div>
+		
+			<!-- Contact -->
+			<div class="grid_8 contact">
+				<h3>Contact Details</h3>
+				<p>To employ me, here is some more information :</p>
+				<ul>
+					<li class="lieu">Bangalore, India</li>
+					<li class="phone">9952278241</li>
+					<li class="mail"><a href="mailto:nikam@outlook.com">nikam@outlook.com</a></li>
+					<li class="site"><a href="http://www.sap.in/">www.sap.in</a></li>
+					<li class="form"><a class="toContactForm">To contact form</a></li>
+                    
+				</ul>
+			</div>
+	</section>
+
+
+		<!-- Contact -->
+	<section class="contactform_clearfix">
+		<div class="container_16">
+			<h3>Contact-query</h3>
+			<p> To send me any messages or get your queries answered, contact me in the following text box :)
+			<br><em>I will reply within 24 hours - assured.</em></p>
+			<form novalidate="novalidate" method="post" action="#" name="contact" class="grid_16">
+				<p class="grid_10"><textarea name="message" placeholder="Message" class="required"></textarea></p>
+				<p class="grid_6">
+					<input name="nom" placeholder="Nom - Prénom" class="required" value="Name" type="text">
+					<input name="email" placeholder="Adresse email" value="Email" class="required" type="email">	
+					<input name="envoi" value="Click to submit" class="required" type="submit">
+					<span class="messageform"></span>
+				</p>
+			</form>
+		</div>
+	</section>
+
+<!-- Scripts JavaScript for validating-->
+
+<!--
+ <script src="nikam/jquery-1.js"></script>
+<script src="nikam/validate.js"></script>
+<!--[if lt IE 9]>
+<script src="scripts/placeholder.js"></script>
+<![endif]
+<script src="nikam/plugins.js"></script> -->
+
+
+
+</body>
+
+</html>
